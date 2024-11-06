@@ -6,8 +6,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen sm:p-10">
-      <div className="flex flex-col items-center justify-center">
+    <div className="min-h-screen">
+      <div className="flex flex-col items-center justify-center bg-zinc-200">
         <Header />
         <Navbar />
       </div>

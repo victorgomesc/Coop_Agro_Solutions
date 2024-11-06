@@ -21,6 +21,6 @@ body {
 }
 
 .sidebar {
-  @apply sticky left-0 top-0 flex h-screen w-fit flex-col justify-between border border-gray-200 bg-zinc-100 pt-10
+  @apply sticky left-0 top-0 flex h-screen w-fit flex-col justify-between border border-gray-200 bg-zinc-200 pt-10
    max-md:hidden sm:p-10 xl:p-10 2xl:w-[355px];
 }
