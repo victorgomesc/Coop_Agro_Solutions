@@ -1,8 +1,8 @@
 import Baner from "@/components/Baner";
+import BusinessDescription from "@/components/BusinessDescription";
 import Header from "@/components/Header";
 import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -14,7 +14,10 @@ export default function Home() {
       
       <div className="flex">
         <Sidebar />
-        <Baner />
+        <div className="flex flex-col">
+          <Baner />
+          <BusinessDescription />
+        </div>
       </div>
       
     </div>
