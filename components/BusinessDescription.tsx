@@ -4,7 +4,6 @@ const BusinessDescription = () => {
   return (
     <div>
         <p></p>
-      
     </div>
   )
 }
