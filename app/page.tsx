@@ -6,7 +6,7 @@ import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen flex">
       <div className="flex items-center justify-center bg-zinc-200">
         <Header />
         <Navbar />
